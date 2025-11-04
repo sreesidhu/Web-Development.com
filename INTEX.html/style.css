@@ -1,0 +1,153 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #050b18;
+  color: #e5f0ff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #001a3f, #003c7e);
+  text-align: center;
+  padding: 100px 20px;
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.15);
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  color: #00e0ff;
+  margin-bottom: 15px;
+}
+
+.hero .subtitle {
+  font-size: 1.2em;
+  color: #d0e6ff;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.cta-btn {
+  background: #00bfff;
+  color: #fff;
+  border: none;
+  padding: 14px 36px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+.cta-btn:hover {
+  background: #0094cc;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+}
+
+/* Section Headings */
+h2 {
+  font-size: 2em;
+  color: #00c6ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* About */
+.about p {
+  text-align: center;
+  color: #c9dfff;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.05em;
+}
+
+/* Services */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #0a1529;
+  border: 1px solid #0e274d;
+  border-radius: 10px;
+  padding: 25px;
+  color: #d4e9ff;
+  box-shadow: 0 0 12px rgba(0, 200, 255, 0.05);
+}
+
+.card h3 {
+  color: #00bfff;
+  margin-bottom: 10px;
+}
+
+/* Payment */
+.payment {
+  background: #081324;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.08);
+}
+
+.payment ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.payment li {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+/* Contact */
+.contact {
+  background: #0a172f;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+  text-align: center;
+}
+
+.contact-info {
+  margin: 20px 0;
+}
+
+#contactBtn {
+  background-color: #00bfff;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contactBtn:hover {
+  background-color: #008fcc;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #010812;
+  color: #9ad3ff;
+  font-size: 0.9em;
+  border-top: 1px solid #002850;
+}
